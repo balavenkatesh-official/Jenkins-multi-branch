@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = "balavenkateshhub/my-node-app"
         IMAGE_TAG = "development"
-        CONTAINER_NAME = "my-node-app:${IMAGE_TAG}"
+        CONTAINER_NAME = "my-node-app-${IMAGE_TAG}"
         APP_PORT = "4000"
     }
 
