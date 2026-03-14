@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
                 * { margin: 0; padding: 0; box-sizing: border-box; }
                 body {
                     font-family: Arial, sans-serif;
-                    background: linear-gradient(135deg, #667eea, #764ba2);
+                    background: linear-gradient(135deg, #6aea66, #4ba272);
                     min-height: 100vh;
                     display: flex;
                     align-items: center;
