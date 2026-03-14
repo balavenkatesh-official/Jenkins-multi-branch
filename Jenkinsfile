@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME    = 'balavenkateshhub/my-node-app'
-        IMAGE_TAG     = 'production'
-        CONTAINER_NAME = 'my-node-app'
-        APP_PORT      = '3000'
+        IMAGE_NAME    = "balavenkateshhub/my-node-app"
+        IMAGE_TAG     = "production"
+        CONTAINER_NAME = "my-node-app"
+        APP_PORT      = "3000"
     }
 
     stages {
