@@ -10,12 +10,12 @@ pipeline {
 
     stages {
 
-        // stage('Checkout') {
-        //     steps {
-        //         echo 'Cloning repository...'
-        //         checkout scm
-        //     }
-        // }
+         stage('Checkout') {
+             steps {
+                 echo 'Cloning repository...'
+                 checkout scm
+             }
+          }
 
         stage('Docker Build') {
             steps {
