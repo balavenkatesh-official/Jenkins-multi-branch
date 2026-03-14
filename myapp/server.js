@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
                     color: white;
                 }
                 .card {
-                    background: rgba(255,255,255,0.15);
+                    background: rgba(255, 255, 255, 0.38);
                     backdrop-filter: blur(10px);
                     border-radius: 20px;
                     padding: 50px;
@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
                 .badge {
                     display: inline-block;
                     margin-top: 20px;
-                    background: rgba(255,255,255,0.25);
+                    background: rgba(255, 255, 255, 0.03);
                     padding: 8px 20px;
                     border-radius: 50px;
                     font-size: 0.9rem;
