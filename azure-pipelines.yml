@@ -30,12 +30,12 @@ stages:
       # vmImage: $(vmImageName)
       name: $(vmImageName)
     steps:
-    - task: AzureCLI@2
-      inputs:
-        azureSubscription: 'Azure subscription 1(281d6df1-9dfc-46bb-a0e9-46971c2d4d33)'
-        scriptType: 'bash'
-        scriptLocation: 'inlineScript'
-        inlineScript: 'az acr login --name=$(containerRegistry)'
+    # - task: AzureCLI@2
+    #   inputs:
+    #     azureSubscription: 'Azure subscription 1(281d6df1-9dfc-46bb-a0e9-46971c2d4d33)'
+    #     scriptType: 'bash'
+    #     scriptLocation: 'inlineScript'
+    #     inlineScript: 'az acr login --name=$(containerRegistry)'
     - task: Docker@2
       displayName: Build and push an image to container registry
       inputs:
